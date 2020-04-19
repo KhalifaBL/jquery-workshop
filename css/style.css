@@ -1,0 +1,47 @@
+#test-div {
+  height: 400px;
+  width: 300px;
+  background-color: antiquewhite;
+}
+img {
+  height: 300px;
+}
+.fademe {
+  opacity: 0.8;
+}
+#first-article {
+  background-image: url("../res/1.jpeg");
+  height: 300px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#second-article {
+  background-image: url("../res/2.jpeg");
+  height: 300px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.test-btn {
+  margin-top: 30%;
+  height: 20px;
+  cursor: pointer;
+  display: none;
+}
+.showMe {
+  display: block;
+}
+#para{
+    color: red;
+    font-size: 15px;
+    display: none;
+}
